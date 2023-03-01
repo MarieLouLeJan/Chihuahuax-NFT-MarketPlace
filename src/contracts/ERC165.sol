@@ -13,16 +13,12 @@ contract ERC165 is IERC165 {
     }
 
     function supportsInterface(bytes4 interfaceID) external view override returns (bool) {
-
         return _supportedInterfaces[interfaceID];
-
     }
 
     function _registerInterface(bytes4 interfaceID) internal {
-
         require(interfaceID != 0xffffffff, 'ERC165 - Invalid interface request');
         _supportedInterfaces[interfaceID] = true;
-
     }
 
 }
