@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-///All the strandards ERC721: https://eips.ethereum.org/EIPS/eip-721
+/// All the strandards ERC721: https://eips.ethereum.org/EIPS/eip-721
 
 interface IERC721 {
 

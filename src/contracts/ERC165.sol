@@ -25,5 +25,4 @@ contract ERC165 is IERC165 {
 
     }
 
-
 }
